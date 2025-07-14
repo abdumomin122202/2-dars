@@ -1,0 +1,33 @@
+body {
+  background-color: #2d4f4a; /* Yashil fon */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  background-color: #3d1f1f; /* Qizil-jigarrang fon */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+.bix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 50px;
+}
+
+.box {
+  background-color: #29f3b0; /* Yashil-ko‘k kontent qismi */
+  padding: 20px; /* Padding */
+  border: 10px solid black; /* Border */
+  margin: 20px; /* Margin */
+  width: 600px;
+  outline: 5px solid red; /* Tashqi chiziq (margin ko‘rinishida) */
+  text-align: left;
+  box-sizing: border-box;
+}
